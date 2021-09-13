@@ -5,7 +5,8 @@
 
 UE5 example project. Log into your Neurosity account, choose your device, and see: device status, calm and focus scores.
 
-![ezgif-7-f0b21b1f1c52](https://user-images.githubusercontent.com/88777150/133000227-3b8ded89-0a13-4751-9d4b-a08032fb030b.gif)
+![NeurosityWebApp_Demo](https://user-images.githubusercontent.com/88777150/133048452-a1bb0b19-11de-4311-b37f-1aed5b0ec2c9.gif)
+
 
 ## What can you do with it?
 
