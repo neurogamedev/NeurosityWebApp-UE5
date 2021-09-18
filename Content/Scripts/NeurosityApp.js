@@ -84,7 +84,7 @@ ipc.on('neurosityLogger', async (args) => {                                     
         .catch((error) => {
             console.log(error);
             ipc.emit('loggedIn', false);
-            ipc.emit('loginError', error.message);                                              // Instead, I am emitting the error message which will be displayed in the login screen for the user to understand the mistake.
+            ipc.emit('loginError', error.message);                                              // I am emitting the error message which will be displayed in the login screen for the user to understand the mistake.
             throw new Error(error);                                                             // Remember to throw any errors AFTER you emit, not before. Otherwise the event is not emitted.
         }
         );
