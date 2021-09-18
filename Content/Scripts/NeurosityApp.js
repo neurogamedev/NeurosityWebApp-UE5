@@ -115,7 +115,8 @@ ipc.on('neurosityLogger', async (args) => {                                     
 
 ipc.on('neurosityEmitter', async (args) => {                                                    // args here only receive one string: the nickname of the device you're getting the info from.
 
-    await notion.selectDevice(["deviceNickname", args]);                                        // ...and here's the only place where that info is used.
+    await notion.disconnect();                                                                  // ...in case we change devices.
+    await notion.selectDevice(["deviceNickname", args]);                                        // ...and here's the only place where the nickname is used.
 
     notion.status().subscribe(status => {                                                       // Then I get the status of the device to display whether it's on or how much battery it has. More info here: https://docs.neurosity.co/docs/api/status
 
