@@ -63,8 +63,10 @@ Make sure to add the folder where your project Scripts are as additional non-ass
 ## To Do
 
 - Check why the packaged game has trouble logging in when run on another computer.
-- Check if the packaged game runs in a computer where Node.js has not been installed. 
+   - [Awaiting response from developer.](https://github.com/getnamo/nodejs-ue4/issues/35)
+- AFTER ISSUE ABOVE IS RESOLVED: Check if the packaged game runs in a computer where Node.js has not been installed. 
 - Check if the game can be packaged for, and run in, an iOS platform.
+  - [Maybe not?](https://github.com/getnamo/nodejs-ue4/issues/32)
 - Fix the Android packaging error.
 
 ## Frequently Asked Questions
