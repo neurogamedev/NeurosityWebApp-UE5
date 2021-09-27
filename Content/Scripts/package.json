@@ -13,6 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@neurosity/notion": "^5.6.0",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "ipc-event-emitter": "^2.0.2"
   }
 }
