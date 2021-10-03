@@ -56,18 +56,13 @@ Make sure to add the folder where your project Scripts are as additional non-ass
 ## Caveats
 
 - You won't be able to see your javascripts inside the UE editor. You'll have to access them from the file explorer and open them in your favorite code editor.
-- So far I have only been able to successfully package this project for Windows, sometimes login crashes.
-- Trying to package for Android throws an otherwise unexpected "Error: Windows.h not found". I suspect the issue lies with the Node.js plugin.
+- So far I have only been able to successfully package this project for Windows. There is a bug and login doesn't akways work. You will have to restart the game about three to four times before it works.
+- The experimental Node.js plugin can only package games for Windows and that even [is buggy](https://github.com/getnamo/nodejs-ue4/issues/35).
 - The Event Tick in the WBP_WebAppGUIManager may not be super efficient. Suggestions are welcome.
 
 ## To Do
 
-- Check why the packaged game has trouble logging in when run on another computer.
-   - [Awaiting response from developer.](https://github.com/getnamo/nodejs-ue4/issues/35)
-- AFTER ISSUE ABOVE IS RESOLVED: Check if the packaged game runs in a computer where Node.js has not been installed. 
-- Check if the game can be packaged for, and run in, an iOS platform.
-  - [Maybe not?](https://github.com/getnamo/nodejs-ue4/issues/32)
-- Fix the Android packaging error.
+- ReplaceNode.js plugin workarounds with proper Neurosity SDK.
 
 ## Frequently Asked Questions
 
